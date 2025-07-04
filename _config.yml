@@ -18,13 +18,13 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: Email
+  - title: email
     url: mailto://ziy2@mcmaster.ca
-  - title: GitHub
+  - title: gitHub
     url: https://github.com/WeirdKittyZ
-  - title: Instagram
+  - title: instagram
     url: https://www.instagram.com/z._1896528?igsh=aWh5ZzlnZTJoM3Rp&utm_source=qr
-  - title: Linkedin
+  - title: linkedin
     url: https://wwww.linkedin.com/in/yijia-zi-644634178
     
 # Build settings
