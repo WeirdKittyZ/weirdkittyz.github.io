@@ -3,8 +3,6 @@ title: Zi's website
 url: https://weirdkittyz.github.io/
 skills: "Hungry Scatterer - Amateur Artist & Photographer"
 
-
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 7d8a7b
@@ -22,15 +20,12 @@ footer:
 social:
   - title: Email
     url: mailto://ziy2@mcmaster.ca
-    icon: fas fa-envelope
   - title: GitHub
     url: https://github.com/WeirdKittyZ
-    icon: fab fa-github
   - title: Instagram
     url: https://www.instagram.com/z._1896528?igsh=aWh5ZzlnZTJoM3Rp&utm_source=qr
-    icon: fab fa-instagram
   - title: Linkedin
-    url: www.linkedin.com/in/yijia-zi-644634178
+    url: https://wwww.linkedin.com/in/yijia-zi-644634178
     
 # Build settings
 markdown: kramdown
