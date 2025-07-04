@@ -6,5 +6,6 @@ img: capybara_family.jpeg
 alt: image-alt
 project-date: 2021-2025
 type: Academic
+link: https://weirdkittyz.github.io/ClancyGroup/
 description: This <a href="https://weirdkittyz.github.io/ClancyGroup/">website</a> is dedicated to the current and future members of the Capybara family.
 ---
