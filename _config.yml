@@ -25,7 +25,10 @@ social:
     url: https://www.instagram.com/z._1896528/
    - title: email
      url: mailto://zyjzjq99@sina.com
-
+  - title: Email
+    url: mailto://ziy2@mcmaster.ca
+    icon: fas fa-envelope
+    
 # Build settings
 markdown: kramdown
 permalink: pretty
