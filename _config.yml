@@ -23,8 +23,8 @@ social:
     url: https://www.linkedin.com/in/yijia-zi-644634178/
   - title: instagram
     url: https://www.instagram.com/z._1896528/
-   - title: discus
-    url: mailto://zyjzjq99@sina.com
+   - title: email
+     url: mailto://zyjzjq99@sina.com
 
 # Build settings
 markdown: kramdown
