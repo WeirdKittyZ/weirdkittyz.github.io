@@ -36,6 +36,26 @@ h6 {
     font-weight: 700;
 }
 
+hr.leaf-dotted {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: 5px dotted
+    text-align: center;
+    overflow: visible;
+}
+
+hr.leaf-dotted:after {
+    content: "\f18c"; /* Font Awesome leaf icon */
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    padding: 0 0.25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
