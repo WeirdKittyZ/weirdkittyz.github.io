@@ -25,9 +25,10 @@ social:
     url: https://www.instagram.com/z._1896528/
   - title: disqus
     url: mailto://zyjzjq99@sina.com
+    icon: fa-beer
   - title: envelope
     url: mailto://ziy2@mcmaster.ca
-    icon: mail
+    icon: <i class="fa fa-beer" aria-hidden="true"></i>
     
 # Build settings
 markdown: kramdown
