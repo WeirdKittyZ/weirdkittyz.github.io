@@ -5,8 +5,8 @@ skills: "Hungry Scatterer - Amateur Artist & Photographer"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: e2faab
-  primary-rgb: "226, 250, 171"
+  primary: a3d47b
+  primary-rgb: "163, 212, 123"
   secondary: 69c8c3
   secondary-dark: 3cbeb7
 
@@ -19,10 +19,11 @@ footer:
 social:
   - title: github
     url: https://github.com/WeirdKittyZ
-  - title: instagram
-    url: https://www.instagram.com/z._1896528?igsh=aWh5ZzlnZTJoM3Rp&utm_source=qr
   - title: linkedin
     url: https://wwww.linkedin.com/in/yijia-zi-644634178
+  - title: instagram
+    url: https://www.instagram.com/z._1896528?igsh=aWh5ZzlnZTJoM3Rp&utm_source=qr
+
     
 # Build settings
 markdown: kramdown
