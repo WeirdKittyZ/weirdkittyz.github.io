@@ -7,10 +7,10 @@ skills: "Hungry Scatterer - Amateur Artist & Photographer"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: e1f8dc
-  primary-rgb: "225, 248, 220"
-  secondary: 7d8a7b
-  secondary-dark: 5b6659
+  primary: 7d8a7b
+  primary-rgb: "125, 138, 123"
+  secondary: 556b51
+  secondary-dark: 41573e
 
 # Footer settings
 footer:
