@@ -27,7 +27,7 @@ social:
     url: mailto://zyjzjq99@sina.com
   - title: envelope
     url: mailto://ziy2@mcmaster.ca
-    icon: fas fa-envelope
+    icon: mail
     
 # Build settings
 markdown: kramdown
