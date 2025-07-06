@@ -3,24 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page Not Found</title>
+  <title>404 - Page Not Found</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <style>
     body {
-      font-family: Arial, sans-serif;
+      padding-top: 70px;
       text-align: center;
-      padding: 50px;
+      font-family: Arial, sans-serif;
     }
-    h1 {
-      font-size: 50px;
+    .error-container {
+      margin-top: 100px;
     }
-    p {
-      font-size: 20px;
+    .error-container h1 {
+      font-size: 100px;
+      color: #d9534f;
+    }
+    .error-container p {
+      font-size: 24px;
+    }
+    .error-container a {
+      font-size: 18px;
+      color: #337ab7;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#page-top">
+        <img src='/img/Logo1.png' alt="Logo" style="height: 65px; margin-top: -25px;">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden"><a href="#page-top"></a></li>
+        <li class="page-scroll"><a href="#pages">Pages</a></li>
+        <li class="page-scroll"><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 404 Content -->
+<div class="error-container">
   <h1>404</h1>
   <p>Oops! The page you're looking for doesn't exist.</p>
-  <a href="/">Go back home</a>
+  <a href="/">Return to Homepage</a>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
