@@ -4,64 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>404 - Page Not Found</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <style>
-    body {
-      padding-top: 70px;
-      text-align: center;
-      font-family: Arial, sans-serif;
-    }
-    .error-container {
-      margin-top: 100px;
-    }
-    .error-container h1 {
-      font-size: 100px;
-      color: #d9534f;
-    }
-    .error-container p {
-      font-size: 24px;
-    }
-    .error-container a {
-      font-size: 18px;
-      color: #337ab7;
-      text-decoration: none;
-    }
-  </style>
+  <!-- Include your CSS files -->
+  <link rel="stylesheet" href="_includes/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="_includes/css/main.css" />
 </head>
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#page-top">
-        <img src='/img/Logo1.png' alt="Logo" style="height: 65px; margin-top: -25px;">
-      </a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#page-top">
+          <img src='/img/Logo1.png' alt="Logo" style="height: 65px; margin-top: -25px;">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden"><a href="#page-top"></a></li>
+          <li class="page-scroll"><a href="#pages">Pages</a></li>
+          <li class="page-scroll"><a href="#about">About</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden"><a href="#page-top"></a></li>
-        <li class="page-scroll"><a href="#pages">Pages</a></li>
-        <li class="page-scroll"><a href="#about">About</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- 404 Content -->
-<div class="error-container">
-  <h1>404</h1>
-  <p>Oops! The page you're looking for doesn't exist.</p>
-  <a href="/">Return to Homepage</a>
-</div>
+  <!-- 404 Content -->
+  <div style="margin-top: 150px; text-align: center;">
+    <h1>404</h1>
+    <p>Sorry, the page you're looking for doesn't exist.</p>
+    <a href="/" </div>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+  <!-- Include your JS files -->
+  <script src="path/to/jquery.js"></script>
+  <script src="path/to/bootstrap.js"></script>
 </body>
 </html>
