@@ -298,7 +298,7 @@ section.success {
       display: flex;
       flex-flow: row wrap;
       align-items: stretch;
-      gap: 20px;
+      gap: 50px;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 49%;
