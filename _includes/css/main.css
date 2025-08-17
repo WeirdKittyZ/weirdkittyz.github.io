@@ -294,17 +294,15 @@ section.success {
 
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
-    .portfolio-flex-row {
+    .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center; /* centers items horizontally */
-      gap: 20px; /* consistent spacing between items */
-      padding: 0 10px; /* prevents gap from pushing items off-screen */
+      flex-flow: row wrap;
+      align-items: stretch;
+      justify-content: space-between;
     }
-
-    .portfolio-flex-item {
-      flex: 0 1 280px; /* allows wrapping and consistent sizing */
-      box-sizing: border-box;
+    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
+      flex: 1 0 49%;
+      max-width: 49%;
     }
   }
   @media (min-width: 960px) {
