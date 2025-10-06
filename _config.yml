@@ -28,6 +28,7 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+google_verify: "X1DDmL-yM7mNFXFt8rBLi-IS_P0bt0nF9_8CN17LBME"
 
 #for posts
 defaults:
